@@ -1,0 +1,16 @@
+{
+  "name": "objectWatcher",
+  "version": "1.0.0",
+  "description": "Plugin that allows you to watch for changes in a javacript object",
+  "main": "index.js",
+  "keywords": ["watch"
+  , "listen"
+  , "javacript"
+  , "object"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tnrich",
+  "license": "MIT"
+}
