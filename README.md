@@ -6,7 +6,8 @@ Useful mostly for debugging when you aren't sure where a variable is being set/m
 
 Just slap a watcher on it:
 
-var watch = require(objectWatcher).watch;
+```
+var watch = require(object-watcher).watch;
 
 var data = {
      quantity: 0
@@ -18,3 +19,4 @@ var data = {
 
 watch(data, 'quantity', watcher);
 watch(data, 'products', watcher);
+```
