@@ -1,6 +1,6 @@
 {
   "name": "object-watcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Plugin that allows you to watch for changes in a javacript object",
   "main": "index.js",
   "repository": {
