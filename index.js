@@ -24,7 +24,7 @@ function watch(target, prop, handler) {
                 enumerable: false,
                 configurable: true
             });
-        } else if (Object.prototype.__defineGetter__ &amp;&amp; Object.prototype.__defineSetter__) { // legacy
+        } else if (Object.prototype.__defineGetter__ && Object.prototype.__defineSetter__) { // legacy
             Object.prototype.__defineGetter__.call(target, prop, getter);
             Object.prototype.__defineSetter__.call(target, prop, setter);
         }
