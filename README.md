@@ -19,4 +19,7 @@ var data = {
 
 watch(data, 'quantity', watcher);
 watch(data, 'products', watcher);
+
+data.quantity = 8
+// Variable Changed!
 ```
